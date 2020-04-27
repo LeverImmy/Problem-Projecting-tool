@@ -51,7 +51,7 @@ int main(int argc, char* argv[]) {
 
     tmp_cmd_type_in = "type nul>" + dir + "\\" + name_oj + "\\\"" + name_prob + "\"\\" + name_nick + ".in";
     tmp_cmd_type_out = "type nul>" + dir + "\\" + name_oj + "\\\"" + name_prob + "\"\\" + name_nick + ".out";
-    tmp_cmd_type_cpp = "type nul>" + dir + "\\" + name_oj + "\\\"" + name_prob + "\"\\" + name_nick + ".cpp";
+    tmp_cmd_type_cpp = "type init-code.cpp>" + dir + "\\" + name_oj + "\\\"" + name_prob + "\"\\" + name_nick + ".cpp";
 
     // std::cerr << tmp_cmd_type_in << std::endl;
     // std::cerr << tmp_cmd_type_out << std::endl;
